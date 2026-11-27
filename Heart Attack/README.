@@ -1,0 +1,51 @@
+# Heart Attack Analysis
+
+An analysis of heart attack risk factors using machine learning. The project uses medical attributes such as age, sex, chest pain type, blood pressure, cholesterol, and other clinical indicators to identify patterns associated with heart attack risk.
+
+## Dataset
+
+The notebook uses the heart attack dataset stored in this repository. It includes patient-level medical features and a target variable indicating the presence or absence of heart disease.
+
+## Notebook
+
+- `heart-attack-analysis.ipynb` — data exploration, preprocessing, visualization, model training, and evaluation.
+
+## Workflow
+
+1. Import required libraries and dataset.
+2. Inspect and clean the data.
+3. Explore relationships between medical features.
+4. Prepare features for machine learning.
+5. Train classification models.
+6. Compare model performance using appropriate evaluation metrics.
+7. Interpret the results and identify important predictors.
+
+## Tools and Libraries
+
+- Python 3
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Getting Started
+
+```bash
+git clone https://github.com/rizwanashafi/Machine-learning.git
+cd "Machine-learning/Heart Attack"
+jupyter notebook heart-attack-analysis.ipynb
+```
+
+## Requirements
+
+Install the required Python packages:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+## Results
+
+The final notebook reports model metrics and visualizations, allowing different machine learning approaches to be compared based on prediction performance.
